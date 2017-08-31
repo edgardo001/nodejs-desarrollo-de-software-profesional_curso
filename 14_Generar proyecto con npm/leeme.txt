@@ -1,0 +1,75 @@
+Como se creo esta proyecto automaticamente con npm:
+
+
+
+Project
+Curso Udemy nodejs-desarrollo-de-software-profesional
+08_Introduccion y concepto de prototipos
+09_Callbacks - uso y manejo de eventos
+10_Funciones flecha - arrow functions
+11_Arreglos - funciones esenciales
+12_Conceptos de programacion funcional
+14_Generar proyecto con npm
+proyecto1
+leeme.txt
+curso_nodejs
+1
+2
+Como se creo esta proyecto automaticamente con npm:
+
+
+
+Windows PowerShell
+Copyright (C) 2016 Microsoft Corporation. Todos los derechos reservados.
+
+No se puede cargar el módulo de PSReadline. Se está ejecutando la consola sin
+PSReadline.
+PS C:\Users\datasoft-edgardo\Desktop\Curso Udemy nodejs-desarrollo-de-software
+-profesional> cd '.\14_Generar proyecto con npm'
+PS C:\Users\datasoft-edgardo\Desktop\Curso Udemy nodejs-desarrollo-de-software
+-profesional\14_Generar proyecto con npm> cd .\proyecto1
+PS C:\Users\datasoft-edgardo\Desktop\Curso Udemy nodejs-desarrollo-de-software
+-profesional\14_Generar proyecto con npm\proyecto1> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (proyecto1) proyecto_1
+version: (1.0.0) 0.0.1
+description: Esto es una prueba
+entry point: (index.js) app.js
+test command:
+git repository:
+keywords: prueba, proyecto, 1
+author: Edgardo Vasquez
+license: (ISC) Apache-2.0
+About to write to C:\Users\datasoft-edgardo\Desktop\Curso Udemy nodejs-desarro
+llo-de-software-profesional\14_Generar proyecto con npm\proyecto1\package.json:
+
+{
+  "name": "proyecto_1",
+  "version": "0.0.1",
+  "description": "Esto es una prueba",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prueba",
+    "proyecto",
+    "1"
+  ],
+  "author": "Edgardo Vasquez",
+  "license": "Apache-2.0"
+}
+
+
+Is this ok? (yes) yes
+PS C:\Users\datasoft-edgardo\Desktop\Curso Udemy nodejs-desarrollo-de-software-profesional\14_Generar proyecto con npm\proyecto1>
