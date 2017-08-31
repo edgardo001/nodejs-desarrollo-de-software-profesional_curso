@@ -10,12 +10,22 @@ class Cliente{
     }
   }
 
+  //Metodo de autenticacion HTTP BASIC
+  autenticarBasic(user, pass){
+    this.basicAuth = new Buffer(user+":"+pass).toString("base64");
+  }
+
   //Procesar HEADERS para mantener session -> se realiza en la peticion(o request)
   procesarHeaders(){
     var headers = {
       "Accept":"*/*",//Cualquier tipo de informacion es aceptada
-      "User-Agent": "Cliente Node.js"//Al ser un cliente personal, puede entregarse cualquier data, pero debe ir si o si para evitar fallas con servidores
+      "User-Agent": "Cliente Node.js"//Al ser un cliente personal, puede entregarse cualquier data, pero debe ir si o si para evitar fallas con servidores como por ejemplo en github
     };
+    
+    if (this.basicAuth != undefined) {
+      headers.Authorization = "Basic " + this.basicAuth;
+    }
+
     return headers;
   }
 
