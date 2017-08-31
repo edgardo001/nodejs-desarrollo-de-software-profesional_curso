@@ -5,7 +5,7 @@ var clienteGitHub = new Cliente("api.github.com","443", "https");
 console.log(clienteGitHub);
 
 //Para hacer la peticion actual funcional, se debe pasar la contraseña correcta
-clienteGitHub.autenticarBasic("edgardo001", "");
+clienteGitHub.autenticarBasic("edgardo001", "***");
 
 //Si se implementa de esta manera, la consulta bloqueara el sistema hasta que obtenga una respuesta
 //Para evitarlo, se debera pasar como un callback
