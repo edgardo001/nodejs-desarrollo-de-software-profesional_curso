@@ -1,0 +1,36 @@
+Desde la terminal de comando, posicionado en esta carpeta:
+
+$> mkdir proyecto1
+$> cd proyecto1
+$> npm init proyecto1
+
+======================================
+npm init proyecto1
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (proyecto1) proyecto_1
+version: (1.0.0) 0.0.1
+description: Esto es una prueba
+entry point: (index.js) app.js
+test command:
+git repository:
+keywords: prueba, proyecto, 1
+author: edgardo vasquez
+license: (ISC)
+About to write to C:\................
+=================================
+
+#Añade el modulo express como dependencia del proyecto
+$> npm install express --save
+
+# Revisa el package.json e instala todas las dependencias necesarias.
+$> npm install
