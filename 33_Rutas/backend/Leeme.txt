@@ -1,0 +1,3 @@
+Para iniciar se debe ejecutar:
+
+$> npm start
