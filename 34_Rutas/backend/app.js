@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var session = require('express-session');//Permite guardar sessiones del cliente
+var session = require('express-session');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
@@ -12,14 +12,6 @@ var animales = require('./routes/animales');
 
 // Creación de app de express
 var app = express();
-
-//Para hacer uso de las sessiones, se debe entregar una llave, que sera usada para encriptar las sessiones
-app.use(session({
-  secret: 'app nodejs',
-  //resave: false,
-  //saveUninitialized: true,
-  //cookie: { secure: true }
-}));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
