@@ -1,0 +1,7 @@
+1.- Inicializar proyecto con "npm init"
+2.- Instalar express "npm install express --save"
+
+Se puede busca documentacion en:
+  https://expressjs.com/
+  https://www.npmjs.com/package/express
+  
