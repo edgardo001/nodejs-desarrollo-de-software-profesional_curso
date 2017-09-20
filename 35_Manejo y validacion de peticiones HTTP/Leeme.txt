@@ -1,0 +1,50 @@
+1.- iniciar api:
+  cd backend
+  npm start
+2.- en otra consola iniciar el cliente de consumo del api
+  cd testAPIconsumerAnimales
+  node main.js
+
+
+/******En el Server debe aparecer lo siguiente***********
+Session {
+  cookie:
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+
+  vistas: 1 }
+GET /animales 200 12.378 ms - 41
+GET /robots.txt 404 37.422 ms - 44
+GET /favicon.ico 404 1.185 ms - 44
+GET /favicon.ico 404 0.947 ms - 44
+Session {
+  cookie:
+   { path: '/',
+     _expires: null,
+     originalMaxAge: null,
+     httpOnly: true },
+  vistas: 2 }
+GET /animales 200 1.044 ms - 41
+{ nombre: 'Luna', especie: 'perro' }
+POST http://localhost/animales/ 200 79.991 ms - 25
+/**************************************************************
+
+
+
+/******En el Cliente debe aparecer lo siguiente***********
+{ status: 200,
+  body: 'Peticion ha sido recibida',
+  headers:
+   { 'x-powered-by': 'Express',
+     'content-type': 'text/html; charset=utf-8',
+     'content-length': '25',
+     etag: 'W/"19-wmDEhy8tTpb0DRPhZb/yR3pnz5I"',
+     'set-cookie': [ 'connect.sid=s%3AYKsgT-IsBEnJi68XLOlcUlcuUnpWKaOZ.nixpAGHoQsA
+3N4nmhsNHjAWsHLjXXbC4%2Bw8XHQJh7A8; Path=/; HttpOnly' ],
+     date: 'Wed, 20 Sep 2017 15:57:59 GMT',
+
+     connection: 'close' } }
+
+/**************************************************************
