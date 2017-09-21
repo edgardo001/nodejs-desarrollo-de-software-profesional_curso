@@ -1,0 +1,14 @@
+{
+  "name": "demo_sqlite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app_sqlite.js"
+  },
+  "author": "edgardo001",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite": "^2.8.0"
+  }
+}

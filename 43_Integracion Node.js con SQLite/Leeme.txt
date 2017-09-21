@@ -1,0 +1,10 @@
+Inicializar proyecto node
+> npm init
+
+Para instalar el driver de sqlite desarrollado por "koistya"
+> npm install sqlite --save
+
+Para iniciar:
+> npm start
+o
+> node app_sqlite.js
