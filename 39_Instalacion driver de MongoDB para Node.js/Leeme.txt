@@ -1,5 +1,5 @@
 1.- Inicializar el repositorio con "npm init"
-2.- Para instalar el driver de mongo "npm install mogodb --save"
+2.- Para instalar el driver de mongo "npm install mongodb --save"
 3.- Para ver los modulos instalados "ls node_modules"
 
 #Para configurar mongo sobre windows, se puede usar la siguiente configuracion:
