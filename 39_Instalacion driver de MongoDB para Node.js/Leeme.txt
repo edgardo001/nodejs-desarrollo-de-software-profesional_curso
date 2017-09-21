@@ -8,4 +8,14 @@
 #Para descargad mongo sobre docker
 1.- Descarga e instala la imagen de mongo"docker pull mongo"
 2.- Muestra las imagens "docker images"
-3.- Para iniciar un nuevo contenedor docker desde la imagen mongo "docker run --name midb -d mongo"
+3.- Para iniciar un nuevo contenedor docker desde la imagen mongo
+"docker run --name midb -d mongo"
+
+Si se quiere exponer el puerto del contenedor mongo a exterior del server, se puede usar (reemplazando al comando anterior):
+"docker run -d -p 27017:27017 --name midb -d mongo -D"
+
+Para remover el contenedor:
+"docker rm midb"
+
+Se puede obtener mas informacion en:
+> https://gist.github.com/edgardo001/bb93b623e024f98ac65e4a97ca9d3929
