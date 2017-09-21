@@ -1,0 +1,5 @@
+Normalmente se usa mongodb junto a nodejs y express,
+pero tambien hay otras opciones como conextarse a mysql,
+se recomienda el uso del driver desarrollado por "dougwilson"
+
+https://www.npmjs.com/package/mysql
