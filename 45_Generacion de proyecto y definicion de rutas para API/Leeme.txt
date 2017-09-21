@@ -1,0 +1,42 @@
+instalar express-generator
+> npm install express-generator -g
+
+crear proyecto express-generator con el motor de vistas ".ejs"
+> express --view=ejs
+
+/****************************************************************
+> express --view=ejs
+
+destination is not empty, continue? [y/N] y
+
+   create : .
+   create : ./package.json
+   create : ./app.js
+   create : ./public
+   create : ./routes
+   create : ./routes/index.js
+   create : ./routes/users.js
+
+   create : ./views
+   create : ./views/index.ejs
+   create : ./views/error.ejs
+   create : ./bin
+   create : ./bin/www
+   create : ./public/javascripts
+   create : ./public/images
+   create : ./public/stylesheets
+   create : ./public/stylesheets/style.css
+
+   install dependencies:
+     > cd . && npm install
+
+   run the app:
+     > SET DEBUG=45-generacion-de-proyecto-y-definicion-de-rutas-para-api:* & npm start
+/****************************************************************
+
+Instalar dependencias adicionales:
+> npm install express-session --save
+> npm install mongodb --save
+
+Instalar dependencias del package.json:
+> npm install
