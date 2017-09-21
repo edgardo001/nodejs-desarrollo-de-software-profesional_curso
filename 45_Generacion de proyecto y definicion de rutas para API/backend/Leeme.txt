@@ -1,7 +1,0 @@
-Para iniciar se debe ejecutar:
-
-//Para instalar dependencias
-$> npm install
-
-//Para iniciar el servidor express
-$> npm start
