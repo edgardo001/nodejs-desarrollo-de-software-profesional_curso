@@ -1,0 +1,11 @@
+1.- Inicializar el repositorio con "npm init"
+2.- Para instalar el driver de mongo "npm install mogodb --save"
+3.- Para ver los modulos instalados "ls node_modules"
+
+#Para configurar mongo sobre windows, se puede usar la siguiente configuracion:
+> https://gist.github.com/edgardo001/0f10a6f26e78c0905845cb334b5ab7bd
+
+#Para descargad mongo sobre docker
+1.- Descarga e instala la imagen de mongo"docker pull mongo"
+2.- Muestra las imagens "docker images"
+3.- Para iniciar un nuevo contenedor docker desde la imagen mongo "docker run --name midb -d mongo"
