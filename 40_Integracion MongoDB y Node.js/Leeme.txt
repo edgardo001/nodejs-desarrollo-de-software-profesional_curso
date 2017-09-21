@@ -1,0 +1,20 @@
+Instalar dependencia de package.json:
+> npm install
+
+Recomendaciones.
+
+Lista los contenedores en ejecucion
+
+> docker ps
+
+Genera un contenedor,
+con -P para exporner en un puerto del localhost,
+externa a la red de los contenedores docker
+
+> docker run --name mibase -P -d mongo
+
+/*********************************************************
+#Para ver el codigo desde REPL en la linea de comandos
+> node
+#Cargamos el app.js y ejecutamos
+>.load app.js

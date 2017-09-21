@@ -1,0 +1,25 @@
+{
+  "name": "demo_db_mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edgardo001/nodejs-desarrollo-de-software-profesional_curso.git"
+  },
+  "keywords": [
+    "es"
+  ],
+  "author": "edgardo001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edgardo001/nodejs-desarrollo-de-software-profesional_curso/issues"
+  },
+  "homepage": "https://github.com/edgardo001/nodejs-desarrollo-de-software-profesional_curso#readme",
+  "dependencies": {
+    "mongodb": "^2.2.31"
+  }
+}
