@@ -1,0 +1,53 @@
+#Instalamos el generador de proyectos forma global
+npm install express-generator -g
+
+#lista las opciones de express-generator
+express -h
+
+#Se genera el proyecto con la opcion -e
+express -e
+
+/**************************** En la ejecucion debe salir algo similar*********************
+
+$> express -e
+
+  warning: option `--ejs' has been renamed to `--view=ejs'
+
+
+   create : .
+
+   create : ./package.json
+   create : ./app.js
+   create : ./public
+   create : ./views
+   create : ./views/index.ejs
+   create : ./views/error.ejs
+   create : ./routes
+   create : ./routes/index.js
+   create : ./routes/users.js
+   create : ./bin
+   create : ./bin/www
+   create : ./public/images
+   create : ./public/stylesheets
+   create : ./public/stylesheets/style.css
+
+   install dependencies:
+     > cd . && npm install
+
+   run the app:
+     > SET DEBUG=33-generar-proyecto-con-express-generator:* & npm start
+
+   create : ./public/javascripts
+
+/******************************************************************************
+
+
+NOTAS:
+
+/bin --> contiene el script de inicializacion de la app
+/view --> contiene la vistas de la app en archivos con extencion .ejs (injecta javascript en codigo html)
+/app --> contiene la configuracion especifica de express, las rutas, los modulos
+/route --> contiene las rutas, se define donde estan los recursos que se pueden acceder, en esta seccion se enfoca el desarrollo backend.
+
+4.- Ejecutar "npm install", para instalar las dependencias del "package.json"
+5.- Para ejecutar o iniciar el app: "npm start"
