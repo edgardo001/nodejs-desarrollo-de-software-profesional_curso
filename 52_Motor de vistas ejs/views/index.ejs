@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <%
+    <!--Codigo javascript en el servidor-->
+    %>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p><%= "Bienvenido " + data.nombre %></p>
+    <%if (data.nombre == "edgaro"){%>
+      <p>HOLA!</p>
+    <%}else{%>
+      <p>Adios!</p>
+    <%}%>
+</html>
