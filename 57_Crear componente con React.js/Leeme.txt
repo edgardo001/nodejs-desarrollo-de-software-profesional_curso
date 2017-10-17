@@ -1,0 +1,17 @@
+Para instalar las dependencias de package.json:
+> npm install
+
+Para iniciar:
+> npm start
+
+Convierte sintaxis del tipo nodejs a sintaxis js de navegadores,
+como por ejemplo el uso de require() para importar librerias
+> npm install browserify -g
+
+babel permite transformar codigo de ES6 a ES5 bajo siertos parametros
+> npm install babel -g
+
+se crea la carpeta js, este almacenara los javascript
+que seran procesador por babel o browserify y los
+dejaran finalmente en public/javascripts de manera
+compatible con multiples navegadores.
