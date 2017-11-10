@@ -1,0 +1,39 @@
+**Para instalar las dependencias de package.json:
+> npm install
+
+** Para iniciar:
+> npm start
+
+**Convierte sintaxis del tipo nodejs a sintaxis js de navegadores,
+**como por ejemplo el uso de require() para importar librerias
+> npm install browserify -g
+
+**babel permite transformar codigo de ES6 a ES5 bajo siertos parametros
+**convierte el jsx a javascript puro.
+> npm install babel-cli -g
+
+**se crea la carpeta js, este almacenara los javascript
+**que seran procesador por babel o browserify y los
+**dejaran finalmente en public/javascripts de manera
+**compatible con multiples navegadores.
+
+**Modulos extras para el uso de babel con react, se instala solo en el proyecto
+**babel-preset-es2015 -> traduccion a ES5
+**babel-preset-react -> para el uso de react
+**--save-dev -> instala como herramienta de desarrollo sobre nodejs
+> npm install babel-preset-es2015 babel-preset-react --save-dev
+
+**Se debe instalar react y react-dom para usarlos con browserify
+> npm install react react-dom --save
+
+///////////////////////////////////////////////////
+Para convertir login.js a javascript puro sobre la carpeta public/javascirpts
+((1.- babel --preset react js/ --out-dir build (no funciona como indica el curso)))
+0.- npm install babel-preset-es2015 babel-preset-react --save-dev
+1.- babel js/ --presets react --out-dir build
+2.- browserify build/componentes/login.js -o public/javascripts/login.js
+
+
+En cada cambio del js, se deberan repetir pasos 1 y 2
+
+babel js/ --presets react --out-dir build | browserify build/componentes/login.js -o public/javascripts/login.js | npm start
