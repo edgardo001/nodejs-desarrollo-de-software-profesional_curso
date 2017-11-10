@@ -3,7 +3,7 @@ var fs = require("fs")//Para leer los certificados desde los arhchivos .pem
 
 /**
 //Para generar los certificados:
-openssl req -x509 newkey rsa:2048 -keyout llave.pem -out cert cert.pem -days 365
+openssl req -x509 newkey rsa:2048 -keyout llave.pem -out cert.pem -days 365
 **/
 
 var opt = {
