@@ -7,7 +7,7 @@ var servidor = net.createServer((socket) => {
     socket.write("Server: echo..:\n");
     connecciones.push(socket);
     socket.on('data', (d) => {
-      //socket.write("no me gusta tu mensaje: " + d);
+      socket.write("no me gusta tu mensaje: " + d);
       connecciones.forEach((s)=>{
         s.write(d);
       });
